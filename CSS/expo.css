@@ -1,0 +1,45 @@
+header {
+    background-color: #FFE436;
+}
+
+div, section {
+    font-family: "Bell MT", sans-serif;
+
+    font-size: 31px;
+}
+section {
+    border: 2px black solid;
+    margin: 30px;
+    padding: 25px;
+
+}
+li {
+    list-style-type: none;
+}
+
+section div div p {
+    box-shadow: 6px 6px 6px black;
+}
+
+section p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#depart_titre {
+    color: #F4442E;
+    text-align: center;
+    font-size: 65px;
+}
+
+#depart_texte {
+    font-size: 31px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+h3 {
+    text-align: center;
+}

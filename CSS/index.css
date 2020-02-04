@@ -1,0 +1,58 @@
+header {
+    background-color: #6827D5;
+}
+header:active {
+    color: #6827D5;
+}
+
+#welcome_logo {
+    margin: 2em;
+    align-content: center;
+}
+
+body {
+    background-image: url("../images/fond2.jpg");
+    background-color: rgba(255, 255, 255, 1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#h31 {
+    color: #FFE436;
+}
+
+#h32 {
+    color: #F4442E;
+}
+
+#h33 {
+    color: #87BFFF;
+}
+
+#pro:hover {
+    transition-duration: 0.5s;
+    font-size: 1.3em;
+}
+
+#expo:hover {
+    font-size: 1.3em;
+}
+
+#cv:hover {
+    font-size: 1.3em;
+}
+
+
+#index_imgBlocLat {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Alata, sans-serif;
+}
+
+.carre_choix:hover{
+    opacity: 0.9;
+}

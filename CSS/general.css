@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+    color: #141414;
+}
+
+p {
+
+}
+
+h1 {
+    color: deeppink;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+.flex_rectangle {
+    display: flex;
+}
+

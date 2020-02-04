@@ -1,0 +1,46 @@
+header {
+    font-size: 1.3em;
+    font-family: Alata, broadway, arial, sans-serif;
+    font-weight: bold;
+    text-align: justify-all;
+    height: 73px;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ECAB4E;
+    text-decoration: none;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.flex_rectangle {
+    width: 80%;
+    align-content: center;
+}
+
+.flex_rectangle:before {
+    content: "";
+    display: block;
+    height: 133px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 260px;
+    width: 260px;
+}
+
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+a:hover {
+    color: #ECAB4E;
+    text-decoration: none;
+}
