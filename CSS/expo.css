@@ -2,11 +2,22 @@ header {
     background-color: #FFE436;
 }
 
+#decoTitre {
+margin-top:  230px;
+    margin-bottom: 480px;
+}
+
+#decoTitre img{
+    width: 794px;
+    height: 414px;
+}
+
 div, section {
     font-family: "Bell MT", sans-serif;
 
     font-size: 31px;
 }
+
 section {
     border: 2px black solid;
     margin: 30px;

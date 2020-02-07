@@ -5,10 +5,43 @@ header:active {
     color: #6827D5;
 }
 
-#welcome_logo {
-    margin: 2em;
+
+#arrow_down {
+    width: 32px;
+    height: 26px;
+    background-color: #34456D;
+    position: absolute;
     align-content: center;
 }
+#arrow_up {
+    background-color: #34456D;
+    position: absolute;
+    align-content: center;
+}
+
+
+#welcome_logo {
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
+#welcome_logo img{
+    width: 1000px;
+    height: 300px;
+}
+
+div div a h3{
+    font-style: oblique;
+    color: white;
+    padding-left: 6px;
+    text-align: left;
+}
+.flex_rectangle {
+    margin-top: 400px;
+    display: flex;
+    margin-bottom: 300px;
+}
+
+
 
 body {
     background-image: url("../images/fond2.jpg");
@@ -21,38 +54,39 @@ body {
 
 #h31 {
     color: #FFE436;
+    font-size: 35px;
 }
 
 #h32 {
     color: #F4442E;
+    font-size: 35px;
 }
 
 #h33 {
     color: #87BFFF;
+    font-size: 35px;
 }
 
-#pro:hover {
+div a:hover {
     transition-duration: 0.5s;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
-
-#expo:hover {
-    font-size: 1.3em;
-}
-
-#cv:hover {
-    font-size: 1.3em;
-}
-
 
 #index_imgBlocLat {
-    display: flex;
     justify-content: space-between;
     text-align: center;
     text-transform: uppercase;
     font-family: Alata, sans-serif;
 }
 
+.carre_choix{
+    width: 200px;
+}
 .carre_choix:hover{
     opacity: 0.9;
+}
+mark {
+    background-color: #34456D;
+    color: white;
+    font-size: 25px;
 }

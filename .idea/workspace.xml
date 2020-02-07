@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="8c0c8949-601d-4883-b973-37b336ee8ec5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/expo.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/expo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/interview.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/interview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/expo.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/expo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/interview.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/interview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/monCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/monCV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_H.bru.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo_H.bru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_H.bru@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo_welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_welcome@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/un_portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +54,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Clovis\HTML, CSS, JS\20.01.20_WEB_site_prefo\pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Clovis\HTML, CSS, JS\20.01.20_WEB_site_prefo\CSS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Clovis\HTML, CSS, JS\20.01.20_WEB_site_prefo\pages" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -62,6 +82,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="2" Folder0="C:\Program Files\JetBrains\ressources_dics_phpstorm_dic_fr\fr" Folder1="C:\Program Files\JetBrains\fr" CustomDictionaries="2" CustomDictionary0="C:\Program Files\JetBrains\ressources_dics_phpstorm_dic_fr\fr\fr.dic" CustomDictionary1="C:\Program Files\JetBrains\fr\fr.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,7 +101,20 @@
       <workItem from="1580285832211" duration="9938000" />
       <workItem from="1580389261780" duration="3597000" />
       <workItem from="1580393539021" duration="468000" />
-      <workItem from="1580394008149" duration="4220000" />
+      <workItem from="1580394008149" duration="4380000" />
+      <workItem from="1580496158622" duration="71000" />
+      <workItem from="1580496288213" duration="9170000" />
+      <workItem from="1580658859638" duration="5510000" />
+      <workItem from="1580717463693" duration="777000" />
+      <workItem from="1580721047733" duration="10545000" />
+      <workItem from="1580827234319" duration="2432000" />
+      <workItem from="1580852930541" duration="431000" />
+      <workItem from="1580853515222" duration="94000" />
+      <workItem from="1580853627350" duration="2944000" />
+      <workItem from="1580857116580" duration="5561000" />
+      <workItem from="1580906849417" duration="1290000" />
+      <workItem from="1580976621575" duration="615000" />
+      <workItem from="1580977466529" duration="3488000" />
     </task>
     <task id="LOCAL-00001" summary="avant approfondissement">
       <created>1580393088339</created>
@@ -96,49 +130,89 @@
       <option name="project" value="LOCAL" />
       <updated>1580397585500</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="header middle">
+      <created>1580398295771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580398295771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pattern">
+      <created>1580398324821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580398324821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="maj 04 jan">
+      <created>1580830044247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580830044247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="avant approfondissement" />
     <MESSAGE value="header middle" />
-    <option name="LAST_COMMIT_MESSAGE" value="header middle" />
+    <MESSAGE value="pattern" />
+    <MESSAGE value="maj 04 jan" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj 04 jan" />
   </component>
   <component name="WindowStateProjectService">
     <state x="728" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580123331914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580123331914" />
-    <state x="585" y="117" key="CommitChangelistDialog2" timestamp="1580398295182">
+    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580853596080">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="141" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.22.1680.1010@0.0.1536.824" timestamp="1580853596080" />
+    <state x="585" y="117" key="CommitChangelistDialog2" timestamp="1580830043426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580398295182" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580394005541">
+    <state x="585" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580830043426" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580977236618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580394005541" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580977236618" />
     <state x="753" y="243" key="RollbackChangesDialog" timestamp="1580135981905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="243" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580135981905" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1580398012966">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1580743091380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580398012966" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580398306836">
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580743091380" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580830587933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580398306836" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1580135992618">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580830587933" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1580728645346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580135992618" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1580296793309">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580728645346" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580722506490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580296793309" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1580722506490" />
   </component>
 </project>
