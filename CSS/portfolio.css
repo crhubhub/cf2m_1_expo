@@ -1,0 +1,51 @@
+#no_dispo {
+    height: 510px;
+    background: url("../images/right_fleche.jpg");
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+h3 {
+    padding: 60px 0 8px 0;
+    color: white;
+    opacity: 90%;
+}
+h4 {
+    opacity: 70%;
+}
+#green {
+    color: #417b5a;
+    background-color: white;
+    margin-top: 1px;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+#green:hover {
+    opacity: 150%;
+    background-color: forestgreen;
+    color: white;
+    padding: 18px;
+    border-radius: 65px;
+}
+
+
+#no_dispo div {
+    font-weight: normal;
+    text-align: center;
+    padding: 1px 0 200px 0;
+    color: white;
+}
+
+section {
+    background-size: cover;
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+}
+
+section:hover {
+
+}

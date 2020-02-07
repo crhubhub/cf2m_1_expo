@@ -2,57 +2,119 @@
 <html lang="fr_fr">
 <head>
     <meta charset="UTF-8">
-    <title>Clovis | préfoPROJECT</title>
-    <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link rel="stylesheet" href="CSS/index.css">
-
+    <title>CLOVIS - Accueil</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/index.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/wrapper.css" rel="stylesheet">
+    <link href="CSS/button.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap" rel="stylesheet">
+    <script async src="main.js"></script>
 </head>
+
 <body>
 <header>
-    <ul>
-        <li>
-                <a href="index.html">Accueil</a>
-        </li>
-        <li><a href="HTML/expo.html">Experience.Brussels</a></li>
-        <li><a href="HTML/interview.html">J'interview un professionnel</a></li>
-        <li><a href="HTML/monCV.html" title="ici est mon c.v.">Afficher mon CV</a></li>
-    </ul>
-    <br>
+    <div class="wrapper">
+        <a href="index.html">
+            <h1>CLOVIS <span class="blue">mon site de préfo</span></h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="HTML/interview.html">Interview</a></li>
+                <li><a href="HTML/expo.html">EXPERIENCE.BRUSSELS</a></li>
+                <li><a href="HTML/portfolio.html">Mon portfolio</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-<p>
-<div id="welcome_logo">
-    <a href="#arrow_down"><img src="images/logo_welcome.png" alt="Bienvenue chez Clo Web"></a>
-</div>
-</p>
-<a href="#arrow_down" id="arrow_down"><img src="images/a_down.png"></a>
+
+<section id="main-image">
+    <div class="wrapper">
+        <h2 id="scrolled">Bienvenue sur clovis.webdev-cf2m<strong>.be</strong></h2>
+        <a href="#bt1" class="button-1" id="bt1">Click or Scroll</a>
+    </div>
+</section>
+
+
+<section id="direction_wrapper">
+    <div class="wrapper">
+        <ul>
+            <li id="interview">
+                <a href="HTML/interview.html" class="zoom">
+                    <h3>
+                        <mark>J'interview</mark>
+                        <br><span id="h31">un profesionnel</span></h3>
+                </a>
+            </li>
+            <li id="expo">
+                <a href="HTML/expo.html" class="zoom">
+                    <h3>
+                        <mark>Ma visite de</mark>
+                        <br><span id="h32">Experience.Brussels</span></h3>
+                </a>
+            </li>
+            <li id="cv">
+                <a href="HTML/portfolio.html" class="zoom">
+                    <h3>
+                        <mark>Afficher</mark>
+                        <br><span id="h33">mon portfolio</span></h3>
+                </a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</section>
+
+<!--
 <div class="flex_rectangle" id="index_imgBlocLat">
     <div>
         <a href="HTML/expo.html" class="carre_choix">
-            <h3 id="expo"><mark>Ma visite de</mark><br><span id="h31">Experience.Brussels</span></h3>
+            <h3 id="expo">
+                <mark>Ma visite de</mark>
+                <br><span id="h31">Experience.Brussels</span></h3>
             <img src="images/expo.jpg" alt="Photo d'une exposition à Bruxelles" title="Vers expo">
         </a>
     </div>
     <div>
         <a href="HTML/interview.html" class="carre_choix">
-            <h3 id ="pro"><mark>J'interview</mark><br><span id="h32">un profesionnel du Web</span></h3>
+            <h3 id="pro">
+                <mark>J'interview</mark>
+                <br><span id="h32">un profesionnel du Web</span></h3>
             <img src="images/interview.jpg" alt="Photo d'une interview" title="Vers interview">
         </a>
     </div>
     <div>
         <a href="HTML/monCV.html" class="carre_choix">
-            <h3 id="cv"><mark>Afficher</mark><br><span id="h33">mon C.V.</span></h3>
+            <h3 id="cv">
+                <mark>Afficher</mark>
+                <br><span id="h33">mon C.V.</span></h3>
             <img src="images/cv.png" alt="Photo d'un cv" title="Vers CV">
         </a>
     </div>
 </div>
-</div>
-<a href="index.html" id="arrow_up"><img src="images/a_up.png"></a>
+-->
+
+
 
 
 <footer>
-
+    <div class="wrapper">
+        <a href="index.html">
+        <h1>CLOVIS <span class="blue">crea</span></h1>
+        </a>
+        <div class="contact_me">Contactez-moi</div>
+    </div>
 </footer>
+
+
 </body>
+
 </html>
+
+
+
+
+
+

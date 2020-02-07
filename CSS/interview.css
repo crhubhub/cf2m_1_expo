@@ -1,11 +1,44 @@
-header {
-    background-color: #F4442E;
+#main-image_interview {
+    height: 550px;
+    background: url("../images/sitting.jpg");
+    background-size: cover;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+#main-image_interview h2
+{
+    font-weight: normal;
+    text-align: center;
+    padding: 110px 0 40px 0;
+    margin-bottom: 300px;
+    margin-top: 50px;
+    color: #261213;
+}
+#main-image_interview:hover {
+    opacity: 95%;
+    transition-duration: 2s;
+}
+#main-image_interview h2:hover {
+    opacity: 30%;
+    transition-duration: 0.12s;
 }
 
+
+
 .question {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'PT Serif', 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 190px;
+    padding-top: 30px;
 }
 
 .reponse {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'pt serif', 'Josefin Slab', serif;
+    text-align: left;
+    font-size: 1.3em;
+    padding-left: 130px;
+    padding-top: 10px;
 }
+

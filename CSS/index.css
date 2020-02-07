@@ -1,92 +1,53 @@
-header {
-    background-color: #6827D5;
+#main-image
+{
+    height: 580px;
+    background: url('../images/bxl.jpg') center;
 }
-header:active {
-    color: #6827D5;
-}
-
-
-#arrow_down {
-    width: 32px;
-    height: 26px;
-    background-color: #34456D;
-    position: absolute;
-    align-content: center;
-}
-#arrow_up {
-    background-color: #34456D;
-    position: absolute;
-    align-content: center;
-}
-
-
-#welcome_logo {
-    margin-top: 200px;
-    margin-bottom: 130px;
-}
-#welcome_logo img{
-    width: 1000px;
-    height: 300px;
-}
-
-div div a h3{
-    font-style: oblique;
-    color: white;
-    padding-left: 6px;
-    text-align: left;
-}
-.flex_rectangle {
-    margin-top: 400px;
-    display: flex;
-    margin-bottom: 300px;
-}
-
-
-
-body {
-    background-image: url("../images/fond2.jpg");
-    background-color: rgba(255, 255, 255, 1);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-}
-
-#h31 {
-    color: #FFE436;
-    font-size: 35px;
-}
-
-#h32 {
-    color: #F4442E;
-    font-size: 35px;
-}
-
-#h33 {
-    color: #87BFFF;
-    font-size: 35px;
-}
-
-div a:hover {
-    transition-duration: 0.5s;
-    font-size: 1.1em;
-}
-
-#index_imgBlocLat {
-    justify-content: space-between;
+#main-image h2
+{
+    font-weight: normal;
     text-align: center;
-    text-transform: uppercase;
-    font-family: Alata, sans-serif;
+    padding: 80px 0 40px 0;
+    margin-bottom: 300px;
+    margin-top: 120px;
+    color: #2a83ac;
+}
+strong {
+    color: #1f2041;
+    font-size: 0.9em;
+    opacity: 68%;
 }
 
-.carre_choix{
-    width: 200px;
+.zoom:hover {
+    font-size: 2em;
 }
-.carre_choix:hover{
-    opacity: 0.9;
+#direction_wrapper {
+    margin-bottom: 80px;
 }
-mark {
-    background-color: #34456D;
-    color: white;
-    font-size: 25px;
+
+
+.button-1
+{
+    display: block;
+    width: 150px;
+    height: 50px;
+    box-shadow: #141414;
+    mso-border-shadow: yes;
+    background: #d0142b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  50px;
 }
+.button-1:hover
+{
+    background: #02b8dd;
+    width: 160px;
+    height: 50px;
+}
+.button-1:visited {
+}
+

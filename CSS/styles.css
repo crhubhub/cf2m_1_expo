@@ -1,0 +1,98 @@
+/* GENERAL */
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+    header {
+    color: #FFE436;
+}
+
+    article {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.blue {
+    color: #3f7cac;
+}
+
+.yellow {
+    color: #FFE436;
+}
+
+.white {
+    color: #ffffff;
+}
+
+h1, h2,h3,h4
+{
+  color: #444;  
+}
+h1
+{
+    font-size: 45px;
+    color: black;
+}
+h2
+{
+    font-size: 30px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+
+
+
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+
+
+#interview
+{
+
+}
+#expo
+{
+    /*background: url('images/expo_logo.png') no-repeat top center;*/
+    width: 40px;
+    height: 40px;
+
+}
+#cv
+{
+
+}

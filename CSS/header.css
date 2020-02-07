@@ -1,46 +1,26 @@
 header {
-    font-size: 1.3em;
-    font-family: Alata, broadway, arial, sans-serif;
-    font-weight: bold;
-    text-align: justify-all;
-    height: 73px;
-    width: 100%;
+    height: 120px;
+    background-color: #edecec;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 52px;
+}
+header nav ul li
+{
+    float:left;
     display: inline-block;
+    font-family: Arial, sans-serif;
+}
+header nav ul li a
+{
     text-transform: uppercase;
-    color: #ECAB4E;
-    text-decoration: none;
-}
-
-ul > li {
-    display: inline-block;
-}
-
-.flex_rectangle {
-    width: 80%;
-    align-content: center;
-}
-
-.flex_rectangle:before {
-    content: "";
-    display: block;
-    height: 133px;
-}
-
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 260px;
-    width: 260px;
-}
-
-
-hr {
-    height: 3px;
-    background-color: black;
-}
-a:hover {
-    color: #ECAB4E;
-    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
 }
