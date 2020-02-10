@@ -1,11 +1,15 @@
 header {
     height: 120px;
     background-color: #edecec;
+
 }
 header h1
 {
     float: left;
     margin-top: 32px;
+}
+header h1:hover {
+    opacity: 85%;
 }
 header nav
 {
@@ -17,7 +21,15 @@ header nav ul li
     float:left;
     display: inline-block;
     font-family: Arial, sans-serif;
+    padding: 6px;
 }
+
+header nav ul li:hover {
+    background-color: #6fc2ec;
+    opacity: 80%;
+    border-radius: 3px;
+}
+
 header nav ul li a
 {
     text-transform: uppercase;

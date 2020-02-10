@@ -8,6 +8,18 @@ font-family: 'Josefin Slab', serif;*/
     header {
     color: #FFE436;
 }
+#carre {
+    width: 4pc;
+    height: 4pc;
+    position: fixed;
+    bottom: 25px;
+    right:30px;
+    background-image: url("../images/upup.png");
+    background-size: cover;
+}
+    body {
+        width: 100vw;
+    }
 
     article {
         margin-top: 80px;
@@ -95,4 +107,8 @@ small
 #cv
 {
 
+}
+
+#small_txt{
+    font-size: 1rem;
 }

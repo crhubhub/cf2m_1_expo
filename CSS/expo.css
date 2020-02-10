@@ -1,54 +1,38 @@
-header {
-    background-color: #FFE436;
-    color: #FFE436;
-}
 
-#main-image_interview {
-    height: 680px;
-    background: url("../images/sitting.jpg");
-    background-size: cover;
-    margin-left: 120px;
-    margin-right: 120px;
-    border-radius: 30px;
-}
-#main-image_interview h2
-{
-    font-weight: normal;
-    text-align: center;
-    padding: 110px 0 40px 0;
-    margin-bottom: 300px;
-    margin-top: 110px;
-    color: #261213;
-}
-#main-image_interview h2:hover {
-    opacity: 30%;
-}
-
-
-section+p {
+section + p {
     margin-top: 120px;
 }
+
 /* SPLIT */
 
-#decoTitre img{
+#decoTitre img {
     width: 794px;
     height: 414px;
 }
 
-div, section {
-    font-family: "Bell MT", sans-serif;
-
-    font-size: 31px;
-}
 
 section {
     border: 2px black solid;
     margin: 30px;
-    padding: 25px;
+    padding: 2px;
 
 }
-li {
-    list-style-type: none;
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+article div {
+    max-width: 510px;
+
+}
+article div span {
+    font-size: 0.8em;
+    color: #141414;
 }
 
 section div div p {
@@ -64,16 +48,73 @@ section p {
 #depart_titre {
     color: #F4442E;
     text-align: center;
-    font-size: 65px;
+    font-size: 3em;
 }
 
 #depart_texte {
-    font-size: 31px;
-    text-align: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    font-size: 1.3em;
+    margin-left: 3.2em;
+    margin-right: 3.2em;
+    text-align: justify;
 
 }
+
+#bx_et {
+    font-size: 2.4em;
+    margin-top: 1.8em;
+    color: #1f2041;
+}
+
+#depart_bru {
+    font-size: 1.3em;
+    margin-left: 3.2em;
+    margin-right: 3.2em;
+    text-align: justify;
+}
+
 h3 {
     text-align: center;
 }
+
+
+#logo_expo {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px;
+    margin-top: 6em;
+}
+
+#logo_expo a img {
+    max-width: 600px;
+}
+
+#logo_expo a p:hover {
+    color: #6fc2ec;
+}
+
+#mosaiques_et {
+    width: 100vw;
+}
+
+#4p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#4p div {
+    max-width: 510px;
+}
+/*
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+article div {
+    max-width: 510px;
+
+}*/

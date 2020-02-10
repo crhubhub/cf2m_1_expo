@@ -1,13 +1,13 @@
 #main-image_interview {
-    height: 550px;
+    height: 620px;
     background: url("../images/sitting.jpg");
     background-size: cover;
     margin-left: 60px;
     margin-right: 60px;
     border-radius: 10px;
 }
-#main-image_interview h2
-{
+
+#main-image_interview h2 {
     font-weight: normal;
     text-align: center;
     padding: 110px 0 40px 0;
@@ -15,30 +15,89 @@
     margin-top: 50px;
     color: #261213;
 }
+
+#click_here {
+    text-align: center;
+    position: relative;
+    top: -300px;
+    font-size: 2em;
+    opacity: 60%;
+}
+
+#click_here a p mark {
+    text-decoration-color: white;
+}
+
 #main-image_interview:hover {
     opacity: 95%;
     transition-duration: 2s;
 }
+
 #main-image_interview h2:hover {
     opacity: 30%;
     transition-duration: 0.12s;
 }
 
+#main-image_interview h2:visited {
+    display: none;
+}
 
+#interview {
+    display: flex;
+    padding: 5% 5% 1% 5%;
+    flex-direction: column;
+}
 
 .question {
-    font-family: 'PT Serif', 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    text-align: left;
-    padding-left: 190px;
-    padding-top: 30px;
+
+    margin-top: 2.5%;
+    color: white;
+    background-color: #417b5a;
+    max-width: 90%;
+    padding: 16px;
+    font-size: 21px;
+    border-radius: 18px;
+    line-height: 105%;
+    text-align: justify;
+
+
 }
 
 .reponse {
-    font-family: 'pt serif', 'Josefin Slab', serif;
-    text-align: left;
-    font-size: 1.3em;
-    padding-left: 130px;
-    padding-top: 10px;
+align-self: flex-end;
+    margin-top: 2.5%;
+    background-color: forestgreen;
+    color: white;
+    width: 68%;
+    font-size: 21px;
+    padding: 16px;
+    border-radius: 18px;
+    line-height: 105%;
+    text-align: justify;
 }
 
+#first {
+    padding-top: 30px;
+}
+
+#first p {
+    padding-top: 30px;
+    margin: 0% 10% 1% 10%;
+    text-align: justify;
+}
+#second {
+    position: relative;
+    top: -2em;
+}
+#second p {
+    margin: 0% 10% 1% 10%;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-family: 'pt serif', 'Josefin Slab', serif;
+    line-height: 140%;
+}
+
+article p {
+    font-size: 1.35em;
+    line-height: 160%;
+}

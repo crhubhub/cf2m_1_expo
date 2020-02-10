@@ -1,19 +1,38 @@
-footer
-{
+footer {
     height: 240px;
     background-color: #edecec;
 }
-footer h1
-{
+
+footer h1:hover {
+    opacity: 75%;
+}
+
+footer h1 {
     color: black;
     text-align: center;
     padding-top: 80px;
 }
-.contact_me
-{
+
+.contact_me {
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
     color: #777;
     text-decoration: underline;
+}
+
+.vers_coll {
+    opacity: 30%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+    text-decoration: underline;
+}
+.contact_me:hover {
+    opacity: 90%;
+}
+
+.vers_coll:hover {
+    opacity: 100%;
 }
