@@ -64,7 +64,7 @@
 }
 
 .reponse {
-align-self: flex-end;
+    align-self: flex-end;
     margin-top: 2.5%;
     background-color: forestgreen;
     color: white;
@@ -85,10 +85,12 @@ align-self: flex-end;
     margin: 0% 10% 1% 10%;
     text-align: justify;
 }
+
 #second {
     position: relative;
     top: -2em;
 }
+
 #second p {
     margin: 0% 10% 1% 10%;
     padding-bottom: 20px;

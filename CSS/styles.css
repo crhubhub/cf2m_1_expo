@@ -18,7 +18,7 @@ font-family: 'Josefin Slab', serif;*/
     background-size: cover;
 }
     body {
-        width: 100vw;
+        width: auto;
     }
 
     article {
