@@ -1,48 +1,38 @@
-
 section + p {
     margin-top: 120px;
 }
-
-/* SPLIT */
 
 #decoTitre img {
     width: 794px;
     height: 414px;
 }
 
-
-section {
-    border: 2px black solid;
-    margin: 30px;
-    padding: 2px;
-
-}
-
-article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-
-}
-
-article div {
-    max-width: 510px;
-
-}
-article div span {
+section article div span {
     font-size: 0.8em;
     color: #141414;
 }
 
-section div div p {
-    box-shadow: 6px 6px 6px black;
+#yellow {
+    position: relative;
+    background-image: url("../images/Yflo_68.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-radius: 1.7em;
+    padding-bottom: 3em;
+}
+#logo_expo {
+    position: relative;
+    top: 2em;
 }
 
-section p {
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
+section article div {
+    background-color: rgba(255,255,255,0.68);
+    max-width: 65%;
+    min-width: 350px;
+    margin: auto;
+    border-radius: 3em;
 }
 
 #depart_titre {
@@ -80,7 +70,7 @@ h3 {
 #logo_expo {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: auto;
     padding: 20px;
     margin-top: 6em;
 }
@@ -94,27 +84,123 @@ h3 {
 }
 
 #mosaiques_et {
-    width: 100vw;
+    border: 3.5px black solid;
+    margin: 1em 5em;
+    padding-bottom: 3em;
+    border-radius: 1.7em;
 }
 
-#4p {
+#les4p {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#4p div {
-    max-width: 510px;
-}
-/*
-article {
+
+.pdiv {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 440px;
+    background-color: #6fc2ec;
+    border-radius: 1em;
+    margin: 2em 1em 1em 1em;
+}
 
+.pdiv h4 {
+    padding-top: 0.4em;
+    font-size: 2em;
+    color: rgba(244,68,46,1);
+    background-color: rgba(255,255,255,0.6);
+}
+.pdiv h5 {
+    font-size: 1.2em;
+    margin: 0 2em;
+}
+.petitTexte {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0 10px;
+    opacity: 40%;
+}
+.petitTexte:hover {
+    border-radius: 0.2em;
+    color: black;
+    background-color: white;
+    opacity: 80%;
+    line-height: 140%;
+    font-size: 1.4em;
+    transition-duration: 0.1s;
+}
+
+.petitTexteLG {
+    font-size: 0.95em;
+    text-align: left;
+    margin: 0 10px;
+    opacity: 40%;
+}
+.petitTexteLG:hover {
+    border-radius: 0.2em;
+    color: black;
+    background-color: white;
+    opacity: 80%;
+    line-height: 120%;
+    font-size: 1.2em;
+    padding: 0 0.2em;
+    transition-duration: 0.1s;
 
 }
 
-article div {
-    max-width: 510px;
+.button-2 {
+    background-color: rgba(244,68,46,0.8);
+    border-radius: 0 0 1em 1em;
+    padding: 5px 0;
+    opacity: 80%;
+}
+.button-2:hover {
+    opacity: 100%;
+    transition-duration: 0.1s;
+}
 
-}*/
+#i1 {
+    background-image: url("../images/melPot@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i2 {
+    background-image: url("../images/cuVar@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i2 h5 {
+    position: relative;
+    top: -1em;
+}
+#i3 {
+    background-image: url("../images/janPet@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i4 {
+    background-image: url("../images/zinneke@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i3 h5 {
+position: relative;
+    left: -1em;
+}
+#autres {
+    margin: 8em 10em 4em 10em;
+}
+#autres div p {
+    margin-top: 2em;
+    font-size: 1.6em;
+}
+h6 {
+    font-size:3em;
+}
+strong {
+    font-size: 1.8em;
+}

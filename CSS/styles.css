@@ -8,6 +8,9 @@ font-family: 'Josefin Slab', serif;*/
     header {
     color: #FFE436;
 }
+    footer {
+        scroll-behavior: revert;
+    }
 #carre {
     width: 4pc;
     height: 4pc;
@@ -18,7 +21,7 @@ font-family: 'Josefin Slab', serif;*/
     background-size: cover;
 }
     body {
-        width: 100vw;
+        width: auto;
     }
 
     article {

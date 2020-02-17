@@ -1,6 +1,6 @@
 #main-image_interview {
     height: 620px;
-    background: url("../images/sitting.jpg");
+    background: url("../images/sitting_1920.jpg");
     background-size: cover;
     margin-left: 60px;
     margin-right: 60px;
@@ -44,51 +44,68 @@
 
 #interview {
     display: flex;
-    padding: 5% 5% 1% 5%;
+    padding: 0 5% 5% 5%;
+    /*padding: 0 17em 3em 17em;*/
     flex-direction: column;
+    background-color: rgba(70, 116, 181, 0.12);
+    margin: 5em auto;
+    border-radius: 2em;
+    max-width: 75%;
+    min-width: 350px;
 }
 
 .question {
-
-    margin-top: 2.5%;
+    margin-top: 3em;
+    margin-right: auto;
     color: white;
-    background-color: #417b5a;
-    max-width: 90%;
-    padding: 16px;
-    font-size: 21px;
-    border-radius: 18px;
-    line-height: 105%;
-    text-align: justify;
-
-
+    background-color: forestgreen;
+    /*    background-color: #74CCF1;*/
+    max-width: 60%;
+    min-width: 270px;
+    padding: 0.7em 0.9em;
+    font-size: 1.5rem;
+    border-radius: 0.9em 0.9em 0.9em 0;
+    line-height: 110%;
+    text-align: justify-all;
 }
 
 .reponse {
-align-self: flex-end;
-    margin-top: 2.5%;
-    background-color: forestgreen;
+    align-self: flex-end;
+    margin-top: 2rem;
+    background-color: #417B5A;
     color: white;
-    width: 68%;
-    font-size: 21px;
-    padding: 16px;
-    border-radius: 18px;
-    line-height: 105%;
-    text-align: justify;
+    max-width: 60%;
+    min-width: 270px;
+    font-size: 1.5em;
+    padding: 0.7em 0.9em;
+    border-radius: 0.9em 0.9em 0 0.9em;
+    font-weight: lighter;
+    line-height: 130%;
+    text-align: justify-all;
 }
 
 #first {
-    padding-top: 30px;
+    padding-top: 4em;
+    max-width: 65%;
+    min-width: 350px;
+    margin: auto;
+}
+
+h4 {
+    font-size: 3em;
 }
 
 #first p {
     padding-top: 30px;
-    margin: 0% 10% 1% 10%;
-    text-align: justify;
+    text-align: left;
+    font-size: 1.55em;
+    font-family: 'pt serif', 'Josefin Slab', serif;
 }
+
 #second {
-    position: relative;
-    top: -2em;
+    padding-bottom: 4em;
 }
+
 #second p {
     margin: 0% 10% 1% 10%;
     padding-bottom: 20px;
